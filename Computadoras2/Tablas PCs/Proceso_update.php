@@ -37,7 +37,10 @@ if (isset($_POST['submitPerfil1'])) {
         $Resultado = mysqli_query($conex, $actualizar); //conexion que hace el proceso de update
 
         if ($Resultado) { //si se importo bien los cambios da el mensaje de todo bien y te devuelve a la TABLA-ALUMNOS
-            header("location: ../Perfil/Perfil.php");
+            // header("location: ../Perfil/Perfil.php");
+            echo "<script>
+            window.location.replace('../Perfil/Perfil.php');
+            </script>";
         };
     }
     //Proceso de Actualizar de usuarios

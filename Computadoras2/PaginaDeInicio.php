@@ -52,13 +52,13 @@
                                 <span class="title">Ver Usuarios</span>
                             </a></li> <?php } ?>
 
-                    <li><a href="../Tablas PCs/Tabla-Computadoras.php?pagina=1">
+                    <li><a href="../computadoras2/Tablas PCs/Tabla-Computadoras.php?pagina=1">
                             <span class="icon"><i class="bi bi-pc-display-horizontal"></i></span>
                             <span class="title">Ver computadoras</span>
                         </a></li>
 
 
-                    <li><a href="../Login/Logout.php">
+                    <li><a href="../computadoras2/Login/Logout.php">
                             <span class="icon"><i class="bi bi-box-arrow-left"></i></span>
                             <span class="title">Cerrar sesion</span>
                         </a></li>
