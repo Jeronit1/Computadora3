@@ -1,0 +1,3 @@
+Administrador:
+Usuario:jeropourtauf@gmail.com
+contraseña:1234
