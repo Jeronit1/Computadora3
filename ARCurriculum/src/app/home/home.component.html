@@ -1,0 +1,42 @@
+            <!--   Banner  -->
+            <a href="#" role="button" class="icono_banner_perfil"><i class="bi bi-pencil-square icono_banner_perfil"></i></a>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/devops.jpg" class="d-block w-100 banner" alt="Cargando...">
+                  </div>
+                </div>
+              </div>
+        <!--------            Intro perfil                ----------------->
+        <section class="container-fluid">
+            <div class="row mx-auto">
+                <div class="col-1">
+                    <a href="#" role="button" class="icono_foto_perfil"><i class="bi bi-pencil-square icono_foto_perfil"></i></a>
+                <img class="FotoPerfil" src="/assets/Decenfoque tec.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-3 text-center PerfilName mb-5">
+                    <a href="#" role="button" class="icono_perfil"><i class="bi bi-pencil-square icono_perfil d-flex mx-3"></i></a>
+                <h4>{{nombre}} {{apellido}}</h4>
+                <span class="">{{edad}} Años</span> 
+                </div>   
+                <div class="col-8">
+                    <a href="#" role="button" class=""><i class="bi bi-pencil-square icono d-flex mx-3"></i></a>
+                    <h4>Titulos e informacion:</h4>
+                    <p>{{inforacion}}</p>
+                </div>
+            </div>
+        </section>
+        <!----------- Experiencia laboral   -------------->
+        <section class="container-fluid Secciones">
+            <a href="#" role="button" class=""><i class="bi bi-plus-square icono fs-4 d-flex"></i></a>
+            <h3 class=" ">Experiencia Laboral:</h3>
+            <app-exp-laboral></app-exp-laboral>
+        </section>
+         <!----------- Educacion   -------------->
+        <section class="container-fluid Secciones">
+            <a href="#" role="button" class=""><i class="bi bi-plus-square icono fs-4 d-flex"></i></a>
+            <h3 class=" ">Estudios y titulos:</h3>
+           <app-educacion></app-educacion>
+        </section>

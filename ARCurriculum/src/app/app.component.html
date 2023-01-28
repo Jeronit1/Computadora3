@@ -1,0 +1,48 @@
+<nav class="navbar  navbar-expand-md navbar-dark bg-dark">
+  <div class="container-fluid">
+      <!--Icono-->
+      <a class="navbar-brand" href="">
+          <i class="bi bi-briefcase-fill"></i>
+          <span>AR</span>
+      </a>
+      <!--boton del menu-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Elementos del menu-->
+      <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" href="">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Personas</a>
+              </li>
+          </ul>
+          <hr class="text-white-50">
+      <!--Enlaces redes sociales-->
+      <ul class="navbar-nav flex-row flex-wrap text-light">
+          <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-twitter"> </i>
+              <small class="d-md-none ms-2">Twitter</small>
+          </li>
+          <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-facebook"></i>
+              <small class="d-md-none ms-2">Facebook</small>
+          </li>
+          <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-instagram"></i>
+              <small class="d-md-none ms-2">Instagram</small>
+          </li>
+          <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-github"></i>
+              <small class="d-md-none ms-2">Github</small>
+          </li>
+      </ul>
+      <form class="d-flex">
+          <button class="btn btn-outline-warning col-12" type="submit">Login</button>
+      </form>
+      </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
