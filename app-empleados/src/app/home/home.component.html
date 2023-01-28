@@ -1,0 +1,28 @@
+
+<div class="container text-center mb-4">
+    <div class="col mb-2"> <h1>{{title}}</h1></div>
+    <form class="form-group row">
+      <div class="form-group col-md-3">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" class="form-control" placeholder="Nombre" [(ngModel)]="campoNombre">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" class="form-control" placeholder="Apellido" [(ngModel)]="campoApellido">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="cargo">Cargo</label>
+        <input type="text" name="cargo" class="form-control" placeholder="Cargo" [(ngModel)]="campoCargo">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="salario">Salario</label>
+        <input type="number" name="salario" class="form-control" placeholder="Salario" [(ngModel)]="campoSalario">
+      </div>
+      <div class="col">
+      <button type="submit" class="btn btn-dark mt-2" (click)="insertarEmpleado()">Insertar</button>
+      </div>
+    </form>
+  </div>
+  
+  <app-lista-empleados *ngFor="let empleado of listaEmpleados let i=index" [empleado]="empleado" [i]="i"></app-lista-empleados>
+  
